@@ -48,6 +48,7 @@ function showForcast(response) {
         `
             <div class="col-2 each-day">
               <div class="forcast-date">${formatDay(forcastdays.time)}</div>
+              
               <img
                 src="${forcastdays.condition.icon_url}"
                 alt=""

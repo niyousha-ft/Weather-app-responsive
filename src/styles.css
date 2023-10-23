@@ -1,6 +1,7 @@
 body {
   background-size: cover;
 }
+
 .myapp {
   width: 70%;
   border: 1px solid rgb(109, 109, 109);
@@ -114,19 +115,38 @@ body {
 }
 
 .niu {
-  border-radius: 7px;
+  border-radius: 768px;
 }
 @media (max-width: 768px) {
   .tempreture {
     font-size: 30px;
   }
-  .material-symbols-outlined {
-    font-size: 20px;
-  }
+
   .city-location {
     font-size: 26px;
   }
   .container {
     size-adjust: 900px;
+  }
+  .today {
+    font-size: 12px;
+    left: 2px;
+  }
+  .humidty,
+  .wind {
+    font-size: 12px;
+  }
+  .myapp {
+    width: 100%;
+    margin-top: 14px;
+  }
+  .material-symbols-outlined {
+    display: none;
+  }
+  .weatherDescription {
+    font-size: 16px;
+  }
+  .search-btn {
+    font-size: 15px;
   }
 }
